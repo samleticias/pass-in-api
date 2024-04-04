@@ -32,4 +32,12 @@ public class Attendee {
 
     @Column(name = "created_at")
     private LocalDateTime createadAt;
+
+    public void setCreatedAt(LocalDateTime createadAt) {
+        this.createadAt = createadAt;
+    }
+
+    public LocalDateTime getCreatedAt() {
+        return createadAt;
+    }
 }
